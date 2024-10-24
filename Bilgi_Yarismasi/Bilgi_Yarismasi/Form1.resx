@@ -1,0 +1,465 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_soru.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 24pt, style=Bold, Italic</value>
+  </data>
+  <data name="btn_soru.Location" type="System.Drawing.Point, System.Drawing">
+    <value>753, 593</value>
+  </data>
+  <data name="btn_soru.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 73</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_soru.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn_soru.Text" xml:space="preserve">
+    <value>Soru Seç</value>
+  </data>
+  <data name="&gt;&gt;btn_soru.Name" xml:space="preserve">
+    <value>btn_soru</value>
+  </data>
+  <data name="&gt;&gt;btn_soru.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_soru.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_soru.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbl_baslik.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_baslik.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 28.2pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbl_baslik.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 258</value>
+  </data>
+  <data name="lbl_baslik.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1013, 62</value>
+  </data>
+  <data name="lbl_baslik.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lbl_baslik.Text" xml:space="preserve">
+    <value>Rastgele Soru Seçmek İçin Butona Tıklayınız.</value>
+  </data>
+  <data name="&gt;&gt;lbl_baslik.Name" xml:space="preserve">
+    <value>lbl_baslik</value>
+  </data>
+  <data name="&gt;&gt;lbl_baslik.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_baslik.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_baslik.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_soru_no.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_soru_no.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 72pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbl_soru_no.Location" type="System.Drawing.Point, System.Drawing">
+    <value>852, 383</value>
+  </data>
+  <data name="lbl_soru_no.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 159</value>
+  </data>
+  <data name="lbl_soru_no.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_soru_no.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_soru_no.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_soru_no.Name" xml:space="preserve">
+    <value>lbl_soru_no</value>
+  </data>
+  <data name="&gt;&gt;lbl_soru_no.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_soru_no.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_soru_no.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="lbl_ynls.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_ynls.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 24pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbl_ynls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1329, 762</value>
+  </data>
+  <data name="lbl_ynls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 54</value>
+  </data>
+  <data name="lbl_ynls.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl_ynls.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;lbl_ynls.Name" xml:space="preserve">
+    <value>lbl_ynls</value>
+  </data>
+  <data name="&gt;&gt;lbl_ynls.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_ynls.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_ynls.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_dgru.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_dgru.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 24pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbl_dgru.Location" type="System.Drawing.Point, System.Drawing">
+    <value>816, 762</value>
+  </data>
+  <data name="lbl_dgru.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 54</value>
+  </data>
+  <data name="lbl_dgru.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbl_dgru.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;lbl_dgru.Name" xml:space="preserve">
+    <value>lbl_dgru</value>
+  </data>
+  <data name="&gt;&gt;lbl_dgru.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_dgru.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_dgru.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_yanlis.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_yanlis.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 22.2pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbl_yanlis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>994, 766</value>
+  </data>
+  <data name="lbl_yanlis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 50</value>
+  </data>
+  <data name="lbl_yanlis.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbl_yanlis.Text" xml:space="preserve">
+    <value>Yanlış Cevaplar :</value>
+  </data>
+  <data name="&gt;&gt;lbl_yanlis.Name" xml:space="preserve">
+    <value>lbl_yanlis</value>
+  </data>
+  <data name="&gt;&gt;lbl_yanlis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_yanlis.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_yanlis.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_dogru.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_dogru.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 22.2pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbl_dogru.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 766</value>
+  </data>
+  <data name="lbl_dogru.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 50</value>
+  </data>
+  <data name="lbl_dogru.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_dogru.Text" xml:space="preserve">
+    <value>Dogru Cevaplar :</value>
+  </data>
+  <data name="&gt;&gt;lbl_dogru.Name" xml:space="preserve">
+    <value>lbl_dogru</value>
+  </data>
+  <data name="&gt;&gt;lbl_dogru.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_dogru.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_dogru.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_skor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_skor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 28.2pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbl_skor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 68</value>
+  </data>
+  <data name="lbl_skor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 62</value>
+  </data>
+  <data name="lbl_skor.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_skor.Text" xml:space="preserve">
+    <value>Puan :</value>
+  </data>
+  <data name="&gt;&gt;lbl_skor.Name" xml:space="preserve">
+    <value>lbl_skor</value>
+  </data>
+  <data name="&gt;&gt;lbl_skor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_skor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_skor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_puan.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_puan.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 36pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbl_puan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 49</value>
+  </data>
+  <data name="lbl_puan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 81</value>
+  </data>
+  <data name="lbl_puan.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbl_puan.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;lbl_puan.Name" xml:space="preserve">
+    <value>lbl_puan</value>
+  </data>
+  <data name="&gt;&gt;lbl_puan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_puan.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_puan.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_close.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1823, 9</value>
+  </data>
+  <data name="lbl_close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 64</value>
+  </data>
+  <data name="lbl_close.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lbl_close.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_close.Name" xml:space="preserve">
+    <value>lbl_close</value>
+  </data>
+  <data name="&gt;&gt;lbl_close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_close.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1902, 1033</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        vv+fWL3/n1vH/6Fi6P+iY/f/kXDq/1inwf88x6mxNs+iNyfQsAA/yKQAAAAAAD3JnAA10KEeSbqzzYh5
+        5P/Lp/j////8/8ik9/+eXOH/n2K7/6Bosv+eXL3/n1+6/6iOkv99fcT/Htr8/yjX+P+KccX/poaZ/59j
+        t/+eWr7/nlu+/59huP+eXrv/nlvH/6Fi6P+/l/b/t5jx/4CE3f5SsrrdOsylWUPIogU7xp8AQsWbAzvJ
+        p3h0kNT7pWb3/7SD9f/Jp/f/rXbv/6BmvP+po4L/q7N2/6N+of+kgp3/rJ2E/4Jyxf8f1/n/Nsnx/5dk
+        wP+nlI7/onSp/55av/+khJz/qqx8/6ighf+hba3/n1zL/8mm8v/GoPf/omD3/5Nw7P9YrL/sN8yjSD/D
+        oQIw15MMSri0v5h96v/awPn/6tz6/7yR9/+fXeT/o3ml/62+bf+twGv/rLJ1/6e3df97pqj/RZ7i/xXO
+        +f8pvPD/enDL/6WNlf+onYj/n2a0/6mkgv+twWr/rcJq/6ibif+eXL//oWLo/6569//Rs/f/t4T3/451
+        6P9JubTPNc+dHDPTnSxVq77gsYrz//v5/P////3/3sj5/6Fh4v+gbK//q7F3/67Aav+jv3P/VMq9/x7a
+        9v8Y4f7/GuL//xjf/v8fx/b/aJfC/6y2c/+ppYH/qaWB/62+bf+twWv/qaSC/59evP+fX+T/wZn4//39
+        /P/Qs/f/omL2/22Xz/Y3zKVyMNeYG1SuvNOidfH/3MX5/+zh+v/Al/b/oWPs/55cxf+hcar/pomW/2S2
+        wP8a3/r/HM3q/x3L6P8c3fj/G+f//xnl//8jxvP/jJ2e/6++bP+twWv/rcBr/63Aa/+mjZT/nlvB/6Fi
+        6v+ob/b/xZ/2/7aH9f+jY/f/h37i/0HCraw00ZwQRb+wt4x45/+mZ/f/q3T1/9Cz9//Rtff/pGjl/59b
+        zv+VY83/Ncj0/xrg+/8c2fX/G+H7/xu83v8autz/G+P+/xje/v9midD/p4aX/6qse/+rsXj/p5eM/59k
+        tf+fXc7/oWPz/6py9v/fy/n/7+X7/8GX9/+Rcur/Tb6151TCogA5y6ROXqbD+Jlr8P+qbff/6tv6/+3f
+        +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
+        D/8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Bilgi Yarışması</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
