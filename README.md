@@ -1,5 +1,6 @@
 # Bilgi_Yarismasi
 Sayaç durdurma işlemi ile Rastgele gelen Sorularla Bilgi Yarışması
+C#, Windows Form Application olarak geliştirildi.
 
 Bilgi Yarışması
 Çeşitli dekor, hayvan ve objelerle, soruları standart ve 
